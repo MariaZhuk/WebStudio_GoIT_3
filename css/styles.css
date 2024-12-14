@@ -1,4 +1,5 @@
 /* Custom Properties */
+
 :root {
     --primery-background-color: #FFFFFF;
     --hero-background-color: #2E2F42;
@@ -28,6 +29,10 @@
     line-height: var(--primery-line-height);
     background-color: var(--primery-background-color);
     letter-spacing: var(--preimery-letter-spacing);
+}
+
+img {
+    display: block;
 }
 
 button {
@@ -165,7 +170,7 @@ a {
 
 .filter-button:focus,
 .filter-button:hover {
-    color: var(--portfolio-background-button-color-accent);
+    color: var(--button-potfolio-text-accent);
     background-color: var(--portfolio-background-button-color-accent);
 }
 
