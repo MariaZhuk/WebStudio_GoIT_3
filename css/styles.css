@@ -1,0 +1,184 @@
+/* Custom Properties */
+:root {
+    --primery-background-color: #FFFFFF;
+    --hero-background-color: #2E2F42;
+    --footer-background-color: #2E2F42;
+    --primery-font-family: Roboto, sans-serif;
+    --primery-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --footer-text-color: #E7E9FC;
+    --footer-logo-color: #F4F4FD;
+    --button-potfolio-text: #4D5AE5;
+    --button-potfolio-text-accent: #FFFFFF;
+    --primery-text-size: 16px;
+    --primery-line-height: 1.5;
+    --accent-color: #404BBF;
+    --nav-logo-color: #4D5AE5;
+    --button-color: #4D5AE5;
+    --button-color-accent: #404BBF;
+    --preimery-letter-spacing: 0.02em;
+    --portfolio-background-button-color: #F4F4FD;
+    --portfolio-background-button-color-accent: #404BBF;
+}
+
+.page {
+    font-family: var(--primery-font-family);
+    font-size: var(--primery-text-size);
+    color: var(--primery-text-color);
+    line-height: var(--primery-line-height);
+    background-color: var(--primery-background-color);
+    letter-spacing: var(--preimery-letter-spacing);
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header */
+.nav-logo {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    color: inherit;
+}
+
+.color-logo {
+    color: var(--nav-logo-color);
+}
+
+.nav-item {
+    font-weight: 500;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: var(--accent-color);
+}
+
+.nav-item>.current {
+    color: var(--accent-color);
+}
+
+.nav-link {
+    color: inherit;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+.contacts-link {
+    color: var(--secondary-text-color);
+}
+
+/* Hero */
+.hero-title {
+    color: tomato;
+
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    text-align: center;
+}
+
+.hero-button {
+    color: tomato;
+    background-color: var(--button-color);
+    font-weight: 500;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--button-color-accent);
+}
+
+/*  advantages*/
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+}
+
+.advantages-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.advantages-item-text {
+    color: var(--secondary-text-color);
+}
+
+/* Team */
+.team-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2px;
+    text-align: center;
+}
+
+.team-list-text {
+    color: var(--secondary-text-color);
+    text-align: center;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--footer-background-color);
+}
+
+.logo-footer {
+    color: var(--footer-logo-color);
+}
+
+.footer-text {
+    color: var(--footer-text-color);
+}
+
+/* PORTFOLIO */
+
+.filter-button {
+    color: var(--button-potfolio-text);
+    background-color: var(--portfolio-background-button-color);
+
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+.filter-button:focus,
+.filter-button:hover {
+    color: var(--portfolio-background-button-color-accent);
+    background-color: var(--portfolio-background-button-color-accent);
+}
+
+.examples-link {
+    color: inherit;
+}
+
+.examples-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.examples-text {
+    color: var(--secondary-text-color);
+}
